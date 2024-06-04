@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com);
+@import url(https://fonts.gstatic.com);
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
+
+body {
+  font-family: Poppins, sans-serif;
+  margin: auto;
+  width: 95%;
+  margin: auto auto;
+}
+
+p {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+h2 {
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 700;
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h3 {
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 400;
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  margin-top: 10px;
+  border: none;
+  padding: 1rem;
+  height: 55px;
+  font-size: 18px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  transition: 0.5s;
+}
+
+button:hover {
+  width: 100%;
+  background: black;
+  color: white;
+}
+
+.choix {
+  width: 100%;
+  margin-right: 10px;
+}
+
+.section {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.titre-section {
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+textarea[readonly],
+.input,
+textarea {
+  width: 100%;
+  border: 1px solid black;
+  height: 55px;
+  padding: 0 2rem;
+  outline: none;
+  transition: 0.5s;
+  font-size: 22px;
+  border-radius: 100px;
+  text-align: center;
+}
+
+textarea[readonly] {
+  background-color: #eee;
+}
